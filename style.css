@@ -1,0 +1,108 @@
+:root {
+	--fonte-padrao: Verdana;
+	--amarelo-padrao: #FFD900;
+	--branco-padrao: #FFFFFF;
+	--roxo-padrao: #514988;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: grid;
+	grid-auto-flow: column;
+	grid-auto-columns: 20vw;
+	background-color: var(--amarelo-padrao);
+}
+
+header img {
+	margin-left: 0;
+	margin-top: 20px;
+	margin-bottom: 16px;
+}
+
+#countdown-texto {
+	padding: 10px;
+	text-align: center;
+	font-family: var(--fonte-padrao);
+	font-size: 20px;
+	font-weight: bold;;
+}
+
+#countdown {
+	background-color: black;
+	font-family: var(--fonte-padrao);
+	color: var(--branco-padrao);
+	padding: 20px 20px 20px 350px;
+}
+
+#timer {
+	display: grid;
+	grid-auto-flow: column;
+	grid-auto-columns: 15vw;
+}
+
+.contador {
+	text-align: center;
+}
+
+#principal {
+	display: grid;
+	grid-auto-flow: column;
+	grid-auto-columns: 20vw;
+	background-color: var(--roxo-padrao);
+	align-items: center;
+	height: 465px;
+}
+
+#chamada h1 {
+	color: var(--amarelo-padrao);
+	font-family: var(--fonte-padrao);
+	font-size: 40px;
+	text-align: center;
+}
+
+#chamada p {
+	color: var(--branco-padrao);
+	font-family: var(--fonte-padrao);
+	text-align: center;
+}
+
+#chamada h3 {
+	color: var(--branco-padrao);
+	font-family: var(--fonte-padrao);
+	text-align: center;
+}
+
+#chamada2 video {
+	width: 180%; /* Define que o player do vídeo irá ocupar 100% da div em que ele se encontra e 80% da div seguinte */
+	margin-left: 20%; /* Define que o player do vídeo será ajustado para a div seguinte com a margem de 20% */
+}
+
+#cta {
+	height: 250px;
+	display: grid;
+	grid-auto-flow: column;
+	grid-auto-columns: 9vw;
+	align-items: center;
+}
+
+#cta button {
+	background-color: var(--roxo-padrao);
+	border: 0;
+	font-family: var(--fonte-padrao);
+	font-weight: bold;
+	font-size: 19px;
+	color: var(--branco-padrao);
+	border-radius: 10px;
+	width: 210%;
+	height: 100px;
+	cursor: pointer;
+	margin-left: 100px;
+}
+
+#cta button:hover {
+	color: var(--amarelo-padrao);
+}
